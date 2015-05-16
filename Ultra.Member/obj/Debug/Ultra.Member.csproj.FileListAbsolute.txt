@@ -1,0 +1,8 @@
+F:\BaiduYunDownload\winform\Bin\Ultra.Member.dll
+F:\BaiduYunDownload\winform\Bin\Ultra.Member.pdb
+F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.dll
+F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.pdb
+F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.csprojResolveAssemblyReference.cache
+F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.MainView.resources
+F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.NewView.resources
+F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.csproj.GenerateResource.Cache

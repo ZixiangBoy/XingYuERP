@@ -1,0 +1,8 @@
+F:\BaiduYunDownload\winform\Bin\Ultra.MakeCollect.dll
+F:\BaiduYunDownload\winform\Bin\Ultra.MakeCollect.pdb
+F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.dll
+F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.pdb
+F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csprojResolveAssemblyReference.cache
+F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.MainView.resources
+F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.NewView.resources
+F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csproj.GenerateResource.Cache

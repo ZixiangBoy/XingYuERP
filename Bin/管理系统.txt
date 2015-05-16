@@ -1,0 +1,23 @@
+2015-05-15 17:59:24
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+无法找到 LS.ERP.SysInfo.MainView 对应的模块文件!
+参数名: clsName
+message:
+无法找到 LS.ERP.SysInfo.MainView 对应的模块文件!
+参数名: clsName
+2015-05-16 09:13:28
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+列名 'TradeUser' 无效。
+message:
+列名 'TradeUser' 无效。
+2015-05-16 09:13:31
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+列名 'TradeUser' 无效。
+message:
+列名 'TradeUser' 无效。

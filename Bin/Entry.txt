@@ -1,0 +1,560 @@
+2014-08-04 16:50:53
+stacktrace:
+Database.ExecuteScalar => Program.CurrentDomain_UnhandledException => ApplicationLog.DebugException
+exception:
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 PetaPoco.Database.OpenSharedConnection() 位置 h:\winform\DbEntity\PetaPoco.cs:行号 235
+   在 PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args) 位置 h:\winform\DbEntity\PetaPoco.cs:行号 565
+   在 Entry.Program.Main(String[] args) 位置 h:\winform\Entry\Program.cs:行号 50
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+message:
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 PetaPoco.Database.OpenSharedConnection() 位置 h:\winform\DbEntity\PetaPoco.cs:行号 235
+   在 PetaPoco.Database.ExecuteScalar[T](String sql, Object[] args) 位置 h:\winform\DbEntity\PetaPoco.cs:行号 565
+   在 Entry.Program.Main(String[] args) 位置 h:\winform\Entry\Program.cs:行号 50
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-05-11 18:00:39
+stacktrace:
+Lanucher.Start => Program.CurrentDomain_UnhandledException => ApplicationLog.DebugException
+exception:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+message:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-05-11 18:01:02
+stacktrace:
+Lanucher.Start => Program.CurrentDomain_UnhandledException => ApplicationLog.DebugException
+exception:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+message:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-05-11 18:01:24
+stacktrace:
+Lanucher.Start => Program.CurrentDomain_UnhandledException => ApplicationLog.DebugException
+exception:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+message:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-05-11 18:01:43
+stacktrace:
+Lanucher.Start => Program.CurrentDomain_UnhandledException => ApplicationLog.DebugException
+exception:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+message:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-05-11 18:02:47
+stacktrace:
+Lanucher.Start => Program.CurrentDomain_UnhandledException => ApplicationLog.DebugException
+exception:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+message:
+System.TypeInitializationException: “Ultra.Surface.Lanuch.Lanucher”的类型初始值设定项引发异常。 ---> System.FormatException: 未能找到任何可识别的数字。
+   在 System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   在 System.Convert.ToByte(String value, Int32 fromBase)
+   在 Ultra.Web.Core.Common.ByteStringUtil.ByteArrayFromHexStr(String hexStr) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\ByteStringUtil.cs:行号 31
+   在 Ultra.Web.Core.Common.DESEncrypt.DecryptString(String srcString, String strKey) 位置 f:\BaiduYunDownload\winform\Ultra.Web.Core\Common\DESEncrypt.cs:行号 111
+   在 Ultra.Surface.Common.Util.Decrypt(String src) 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Common\Util.cs:行号 20
+   在 Ultra.Surface.Lanuch.Lanucher.GetConnString() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 157
+   在 Ultra.Surface.Lanuch.Lanucher..cctor() 位置 f:\BaiduYunDownload\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 26
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName)
+   在 Entry.Program.Main(String[] args) 位置 f:\BaiduYunDownload\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-05-11 18:03:43
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+找不到 Ultra.Item.dll 指定的DLL文件!
+参数名: modName
+message:
+找不到 Ultra.Item.dll 指定的DLL文件!
+参数名: modName
+2015-05-11 18:03:45
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+找不到 Ultra.Member.dll 指定的DLL文件!
+参数名: modName
+message:
+找不到 Ultra.Member.dll 指定的DLL文件!
+参数名: modName
+2015-05-11 18:27:59
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+找不到 Ultra.Item.dll 指定的DLL文件!
+参数名: modName
+message:
+找不到 Ultra.Item.dll 指定的DLL文件!
+参数名: modName
+2015-05-11 18:28:02
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+找不到 Ultra.Member.dll 指定的DLL文件!
+参数名: modName
+message:
+找不到 Ultra.Member.dll 指定的DLL文件!
+参数名: modName
+2015-05-14 11:31:26
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+找不到 Ultra.Member.dll 指定的DLL文件!
+参数名: modName
+message:
+找不到 Ultra.Member.dll 指定的DLL文件!
+参数名: modName
+2015-05-14 15:45:21
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+找不到 Ultra.MakeCollect.MainView 指定的DLL文件!
+参数名: modName
+message:
+找不到 Ultra.MakeCollect.MainView 指定的DLL文件!
+参数名: modName
+2015-05-14 15:45:57
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+找不到 Ultra.MakeCollect.MainView 指定的DLL文件!
+参数名: modName
+message:
+找不到 Ultra.MakeCollect.MainView 指定的DLL文件!
+参数名: modName
+2015-05-14 15:46:28
+stacktrace:
+Control.MarshaledInvoke => Program.CurrentDomain_UnhandledException => ApplicationLog.DebugException
+exception:
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainView”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 Ultra.Login.MainView.<MainView_Load>b__2() 位置 f:\BaiduYunDownload\winform\Ultra.Login\MainView.cs:行号 107
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+message:
+System.ObjectDisposedException: 无法访问已释放的对象。
+对象名:“MainView”。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 Ultra.Login.MainView.<MainView_Load>b__2() 位置 f:\BaiduYunDownload\winform\Ultra.Login\MainView.cs:行号 107
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2015-05-14 17:08:36
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:42:07
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:42:11
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:45:08
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:45:24
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:46:30
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:46:32
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:47:04
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:48:42
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:49:40
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:50:24
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:50:31
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:50:40
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 18:50:55
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 19:09:31
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 19:11:59
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-14 19:12:45
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-05-15 11:22:59
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+列名 'issubmit' 无效。
+message:
+列名 'issubmit' 无效。
+2015-05-15 11:23:03
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+列名 'issubmit' 无效。
+message:
+列名 'issubmit' 无效。
+2015-05-15 11:28:14
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+message:
+SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+2015-05-15 11:28:18
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+message:
+SqlDateTime 溢出。必须介于 1/1/1753 12:00:00 AM 和 12/31/9999 11:59:59 PM 之间。
+2015-05-15 12:27:17
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+An error occurred during printing a document.
+message:
+An error occurred during printing a document.
+2015-05-15 14:14:39
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+',' 附近有语法错误。
+message:
+',' 附近有语法错误。
+2015-05-15 15:53:59
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+关键字 'Desc' 附近有语法错误。
+关键字 'Desc' 附近有语法错误。
+message:
+关键字 'Desc' 附近有语法错误。
+关键字 'Desc' 附近有语法错误。
+2015-05-15 15:55:44
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+列名 'pointfee' 无效。
+列名 'pointfee' 无效。
+列名 '' 无效。
+列名 'price' 无效。
+列名 'price' 无效。
+message:
+列名 'pointfee' 无效。
+列名 'pointfee' 无效。
+列名 '' 无效。
+列名 'price' 无效。
+列名 'price' 无效。
+2015-05-15 15:57:08
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+列名 '' 无效。
+message:
+列名 '' 无效。
+2015-05-15 16:05:28
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+列名 'merberguid' 无效。
+列名 'receivername' 不明确。
+message:
+列名 'merberguid' 无效。
+列名 'receivername' 不明确。
+2015-05-15 16:06:41
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+列名 'merberguid' 无效。
+message:
+列名 'merberguid' 无效。

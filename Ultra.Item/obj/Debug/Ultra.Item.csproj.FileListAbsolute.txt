@@ -1,0 +1,9 @@
+F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.csprojResolveAssemblyReference.cache
+F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.MainView.resources
+F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.NewView.resources
+F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.csproj.GenerateResource.Cache
+F:\BaiduYunDownload\winform\Bin\Ultra.Item.dll
+F:\BaiduYunDownload\winform\Bin\Ultra.Item.pdb
+F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.dll
+F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.pdb
+F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.dll.licenses

@@ -1,0 +1,12 @@
+H:\winform\Bin\Entry.exe.config
+H:\winform\Bin\Entry.exe
+H:\winform\Bin\Entry.pdb
+H:\winform\Entry\obj\Debug\Entry.csprojResolveAssemblyReference.cache
+H:\winform\Entry\obj\Debug\Entry.exe
+H:\winform\Entry\obj\Debug\Entry.pdb
+F:\BaiduYunDownload\winform\Entry\obj\Debug\Entry.csprojResolveAssemblyReference.cache
+F:\BaiduYunDownload\winform\Bin\管理系统.exe.config
+F:\BaiduYunDownload\winform\Bin\管理系统.exe
+F:\BaiduYunDownload\winform\Bin\管理系统.pdb
+F:\BaiduYunDownload\winform\Entry\obj\Debug\管理系统.exe
+F:\BaiduYunDownload\winform\Entry\obj\Debug\管理系统.pdb

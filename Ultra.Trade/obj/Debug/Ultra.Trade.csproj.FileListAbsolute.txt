@@ -1,0 +1,9 @@
+F:\BaiduYunDownload\winform\Bin\Ultra.Trade.dll
+F:\BaiduYunDownload\winform\Bin\Ultra.Trade.pdb
+F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.csprojResolveAssemblyReference.cache
+F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.dll
+F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.pdb
+F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.MainView.resources
+F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.rptFH.resources
+F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.csproj.GenerateResource.Cache
+F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.NewView.resources
