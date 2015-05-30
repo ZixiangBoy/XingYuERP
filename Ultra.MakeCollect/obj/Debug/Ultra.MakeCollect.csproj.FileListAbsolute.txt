@@ -6,3 +6,11 @@ F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csproj
 F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.MainView.resources
 F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.NewView.resources
 F:\BaiduYunDownload\winform\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Bin\Ultra.MakeCollect.dll
+H:\GitHub\XingYuERP\Bin\Ultra.MakeCollect.pdb
+H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.MainView.resources
+H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.NewView.resources
+H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.dll
+H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.pdb

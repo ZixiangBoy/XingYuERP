@@ -5,3 +5,10 @@ F:\BaiduYunDownload\winform\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.pdb
 F:\BaiduYunDownload\winform\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.csprojResolveAssemblyReference.cache
 F:\BaiduYunDownload\winform\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.MainView.resources
 F:\BaiduYunDownload\winform\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Bin\Ultra.BalanceLog.dll
+H:\GitHub\XingYuERP\Bin\Ultra.BalanceLog.pdb
+H:\GitHub\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.MainView.resources
+H:\GitHub\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.dll
+H:\GitHub\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.pdb

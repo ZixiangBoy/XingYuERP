@@ -7,3 +7,12 @@ F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.MainView.resources
 F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.rptFH.resources
 F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.csproj.GenerateResource.Cache
 F:\BaiduYunDownload\winform\Ultra.Trade\obj\Debug\Ultra.Trade.NewView.resources
+H:\GitHub\XingYuERP\Bin\Ultra.Trade.dll
+H:\GitHub\XingYuERP\Bin\Ultra.Trade.pdb
+H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.MainView.resources
+H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.NewView.resources
+H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.rptFH.resources
+H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.dll
+H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.pdb

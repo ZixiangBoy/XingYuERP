@@ -6,3 +6,11 @@ F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.csprojResolveAss
 F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.MainView.resources
 F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.NewView.resources
 F:\BaiduYunDownload\winform\Ultra.Member\obj\Debug\Ultra.Member.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Bin\Ultra.Member.dll
+H:\GitHub\XingYuERP\Bin\Ultra.Member.pdb
+H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.MainView.resources
+H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.NewView.resources
+H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.dll
+H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.pdb

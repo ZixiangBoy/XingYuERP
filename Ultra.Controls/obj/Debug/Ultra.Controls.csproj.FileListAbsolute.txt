@@ -3,3 +3,8 @@ F:\BaiduYunDownload\winform\Bin\Ultra.Controls.dll
 F:\BaiduYunDownload\winform\Bin\Ultra.Controls.pdb
 F:\BaiduYunDownload\winform\Ultra.Controls\obj\Debug\Ultra.Controls.dll
 F:\BaiduYunDownload\winform\Ultra.Controls\obj\Debug\Ultra.Controls.pdb
+H:\GitHub\XingYuERP\Bin\Ultra.Controls.dll
+H:\GitHub\XingYuERP\Bin\Ultra.Controls.pdb
+H:\GitHub\XingYuERP\Ultra.Controls\obj\Debug\Ultra.Controls.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.Controls\obj\Debug\Ultra.Controls.dll
+H:\GitHub\XingYuERP\Ultra.Controls\obj\Debug\Ultra.Controls.pdb

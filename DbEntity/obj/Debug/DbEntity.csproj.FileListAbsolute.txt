@@ -16,3 +16,9 @@ F:\BaiduYunDownload\winform\Bin\DbEntity.pdb
 F:\BaiduYunDownload\winform\DbEntity\obj\Debug\DbEntity.csprojResolveAssemblyReference.cache
 F:\BaiduYunDownload\winform\DbEntity\obj\Debug\DbEntity.dll
 F:\BaiduYunDownload\winform\DbEntity\obj\Debug\DbEntity.pdb
+H:\GitHub\XingYuERP\Bin\DbEntity.dll.config
+H:\GitHub\XingYuERP\Bin\DbEntity.dll
+H:\GitHub\XingYuERP\Bin\DbEntity.pdb
+H:\GitHub\XingYuERP\DbEntity\obj\Debug\DbEntity.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\DbEntity\obj\Debug\DbEntity.dll
+H:\GitHub\XingYuERP\DbEntity\obj\Debug\DbEntity.pdb

@@ -14,3 +14,7 @@ F:\BaiduYunDownload\winform\Bin\Ultra.Web.Core.pdb
 F:\BaiduYunDownload\winform\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.dll
 F:\BaiduYunDownload\winform\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.pdb
 F:\BaiduYunDownload\winform\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Bin\Ultra.Web.Core.dll
+H:\GitHub\XingYuERP\Bin\Ultra.Web.Core.pdb
+H:\GitHub\XingYuERP\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.dll
+H:\GitHub\XingYuERP\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.pdb

@@ -7,3 +7,12 @@ F:\BaiduYunDownload\winform\Bin\Ultra.Item.pdb
 F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.dll
 F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.pdb
 F:\BaiduYunDownload\winform\Ultra.Item\obj\Debug\Ultra.Item.dll.licenses
+H:\GitHub\XingYuERP\Bin\Ultra.Item.dll
+H:\GitHub\XingYuERP\Bin\Ultra.Item.pdb
+H:\GitHub\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.MainView.resources
+H:\GitHub\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.NewView.resources
+H:\GitHub\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.dll.licenses
+H:\GitHub\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.dll
+H:\GitHub\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.pdb

@@ -20,3 +20,6 @@ F:\BaiduYunDownload\winform\Bin\DbgEntry.pdb
 F:\BaiduYunDownload\winform\DbgEntry\obj\Debug\DbgEntry.csprojResolveAssemblyReference.cache
 F:\BaiduYunDownload\winform\DbgEntry\obj\Debug\DbgEntry.exe
 F:\BaiduYunDownload\winform\DbgEntry\obj\Debug\DbgEntry.pdb
+H:\GitHub\XingYuERP\Bin\DbgEntry.exe.config
+H:\GitHub\XingYuERP\DbgEntry\obj\Debug\DbgEntry.exe
+H:\GitHub\XingYuERP\DbgEntry\obj\Debug\DbgEntry.pdb

@@ -329,10 +329,10 @@ end
 end
 ,a.CurBalance=case Delivery 
 	when '报单款拿货' then a.CurBalance
-	when '二次拿货' then a.CurBalance+b.price
+	when '二次拿货' then a.CurBalance-b.price
 end
 ,a.RecvBalance=case Delivery 
-	when '报单款拿货' then a.RecvBalance+b.price
+	when '报单款拿货' then a.RecvBalance-b.price
 	when '二次拿货' then a.RecvBalance
 end
 from t_member a 

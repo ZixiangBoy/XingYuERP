@@ -473,7 +473,7 @@
             this.xrFHName.SizeF = new System.Drawing.SizeF(329.1667F, 44.875F);
             this.xrFHName.StylePriority.UseFont = false;
             this.xrFHName.StylePriority.UseTextAlignment = false;
-            this.xrFHName.Text = "权健服务中心（****号店）";
+            this.xrFHName.Text = "权健服务中心（4073号店）";
             this.xrFHName.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // rptFH
