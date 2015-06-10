@@ -26,3 +26,17 @@ F:\BaiduYunDownload\winform\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.Propert
 F:\BaiduYunDownload\winform\HtmlEditorControl\obj\Debug\HTMLEditorControl.csproj.GenerateResource.Cache
 F:\BaiduYunDownload\winform\HtmlEditorControl\obj\Debug\MSDN.HtmlEditorControl.dll
 F:\BaiduYunDownload\winform\HtmlEditorControl\obj\Debug\MSDN.HtmlEditorControl.pdb
+H:\GitHub\Bin\MSDN.HtmlEditorControl.dll
+H:\GitHub\Bin\MSDN.HtmlEditorControl.pdb
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\HTMLEditorControl.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.EditHtmlForm.resources
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.EnterHrefForm.resources
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.EnterImageForm.resources
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.FindReplaceForm.resources
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.FontAttributeForm.resources
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.HtmlEditorControl.resources
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.TablePropertyForm.resources
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.Properties.Resources.resources
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\HTMLEditorControl.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.HtmlEditorControl.dll
+H:\GitHub\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.HtmlEditorControl.pdb

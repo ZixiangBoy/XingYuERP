@@ -11,12 +11,12 @@ namespace PetaPoco
 {
     public partial class Database
     {
-        public Database(string connectionString, bool ismysql)
-        {
-            _connectionString = connectionString;
-            _providerName = ismysql ? "MySql.Data.MySqlClient" : "System.Data.SqlClient";
-            CommonConstruct();
-        }
+        //public Database(string connectionString, bool ismysql)
+        //{
+        //    _connectionString = connectionString;
+        //    _providerName = ismysql ? "MySql.Data.MySqlClient" : "System.Data.SqlClient";
+        //    CommonConstruct();
+        //}
 
         public Database()//:this(true,Apex.Surmnt.Common.DbConnection.ConnectionString)
         {
@@ -34,12 +34,13 @@ namespace PetaPoco
 #endif
             }
             _connectionString = connectionString;
-            _providerName = true ? "System.Data.SqlClient" : "MySql.Data.MySqlClient";
+            //_providerName = true ? "System.Data.SqlClient" : "MySql.Data.MySqlClient";
+            _providerName ="System.Data.SqlClient";
             CommonConstruct();
         }
 
 
-        public DataTable ExcuteDataTable(string sql, params object[] args) {
+        public DataTable ExecuteDataTable(string sql, params object[] args) {
             DataTable dt = new DataTable();
             OpenSharedConnection();
             try {
@@ -57,5 +58,29 @@ namespace PetaPoco
                 CloseSharedConnection();
             }
         }
+    }
+
+    public partial class PetaPocoDbContext {
+        public string ConnStr { get; set; }
+
+        private Database _Db { get; set; }
+
+        protected virtual Database Db {
+            get {
+                return _Db = _Db ?? new PetaPoco.Database(ConnStr);
+            }
+        }
+
+
+        public PetaPocoDbContext() {
+            ConnStr = Ultra.Surface.Lanuch.Lanucher.ConnectonString;
+        }
+
+        public PetaPocoDbContext(string con) {
+            ConnStr = con;
+        }
+
+
+
     }
 }

@@ -16,3 +16,4 @@ H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.rptFH.resources
 H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.csproj.GenerateResource.Cache
 H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.dll
 H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.pdb
+H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.dll.licenses

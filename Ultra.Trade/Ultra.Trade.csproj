@@ -82,6 +82,7 @@
     <EmbeddedResource Include="NewView.resx">
       <DependentUpon>NewView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="rptFH.resx">
       <DependentUpon>rptFH.cs</DependentUpon>
     </EmbeddedResource>

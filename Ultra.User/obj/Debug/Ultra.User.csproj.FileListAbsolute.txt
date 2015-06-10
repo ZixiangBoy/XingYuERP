@@ -20,3 +20,11 @@ F:\BaiduYunDownload\winform\Ultra.User\obj\Debug\Ultra.User.NewView.resources
 F:\BaiduYunDownload\winform\Ultra.User\obj\Debug\Ultra.User.csproj.GenerateResource.Cache
 F:\BaiduYunDownload\winform\Ultra.User\obj\Debug\Ultra.User.dll
 F:\BaiduYunDownload\winform\Ultra.User\obj\Debug\Ultra.User.pdb
+H:\GitHub\XingYuERP\Bin\Ultra.User.dll
+H:\GitHub\XingYuERP\Bin\Ultra.User.pdb
+H:\GitHub\XingYuERP\Ultra.User\obj\Debug\Ultra.User.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.User\obj\Debug\Ultra.User.MainView.resources
+H:\GitHub\XingYuERP\Ultra.User\obj\Debug\Ultra.User.NewView.resources
+H:\GitHub\XingYuERP\Ultra.User\obj\Debug\Ultra.User.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Ultra.User\obj\Debug\Ultra.User.dll
+H:\GitHub\XingYuERP\Ultra.User\obj\Debug\Ultra.User.pdb

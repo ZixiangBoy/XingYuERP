@@ -1,0 +1,16 @@
+F:\BaiduYunDownload\winform\Bin\Ultra.ApprovePoint.dll
+F:\BaiduYunDownload\winform\Bin\Ultra.ApprovePoint.pdb
+F:\BaiduYunDownload\winform\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.dll
+F:\BaiduYunDownload\winform\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.pdb
+F:\BaiduYunDownload\winform\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.csprojResolveAssemblyReference.cache
+F:\BaiduYunDownload\winform\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.MainView.resources
+F:\BaiduYunDownload\winform\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.NewView.resources
+F:\BaiduYunDownload\winform\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Bin\Ultra.ApprovePoint.dll
+H:\GitHub\XingYuERP\Bin\Ultra.ApprovePoint.pdb
+H:\GitHub\XingYuERP\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.MainView.resources
+H:\GitHub\XingYuERP\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.NewView.resources
+H:\GitHub\XingYuERP\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.dll
+H:\GitHub\XingYuERP\Ultra.ApprovePoint\obj\Debug\Ultra.ApprovePoint.pdb

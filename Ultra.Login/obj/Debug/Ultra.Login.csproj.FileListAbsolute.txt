@@ -18,3 +18,13 @@ F:\BaiduYunDownload\winform\Ultra.Login\obj\Debug\Ultra.Login.MenuView.resources
 F:\BaiduYunDownload\winform\Ultra.Login\obj\Debug\Ultra.Login.csproj.GenerateResource.Cache
 F:\BaiduYunDownload\winform\Ultra.Login\obj\Debug\Ultra.Login.dll
 F:\BaiduYunDownload\winform\Ultra.Login\obj\Debug\Ultra.Login.pdb
+H:\GitHub\XingYuERP\Bin\Ultra.Login.dll
+H:\GitHub\XingYuERP\Bin\Ultra.Login.pdb
+H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.EditPassWord.resources
+H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.LoginView.resources
+H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.MainView.resources
+H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.MenuView.resources
+H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.dll
+H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.pdb

@@ -20,3 +20,11 @@ F:\BaiduYunDownload\winform\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.MainView.r
 F:\BaiduYunDownload\winform\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.csproj.GenerateResource.Cache
 F:\BaiduYunDownload\winform\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.dll
 F:\BaiduYunDownload\winform\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.pdb
+H:\GitHub\XingYuERP\Bin\Ultra.LoginBind.dll
+H:\GitHub\XingYuERP\Bin\Ultra.LoginBind.pdb
+H:\GitHub\XingYuERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.csprojResolveAssemblyReference.cache
+H:\GitHub\XingYuERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.EditView.resources
+H:\GitHub\XingYuERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.MainView.resources
+H:\GitHub\XingYuERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.csproj.GenerateResource.Cache
+H:\GitHub\XingYuERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.dll
+H:\GitHub\XingYuERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.pdb
