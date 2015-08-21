@@ -12,3 +12,10 @@ H:\GitHub\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.MainView.resourc
 H:\GitHub\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.csproj.GenerateResource.Cache
 H:\GitHub\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.dll
 H:\GitHub\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.pdb
+C:\GitSrc\XingYuERP\Bin\Ultra.BalanceLog.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.BalanceLog.pdb
+C:\GitSrc\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.MainView.resources
+C:\GitSrc\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.csproj.GenerateResource.Cache
+C:\GitSrc\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.dll
+C:\GitSrc\XingYuERP\Ultra.BalanceLog\obj\Debug\Ultra.BalanceLog.pdb

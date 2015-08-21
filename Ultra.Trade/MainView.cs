@@ -129,12 +129,8 @@ namespace Ultra.Trade {
             var whr = trds.Select(k => k.Guid.ToString()).Aggregate((s1, s2) => s1 + "','" + s2);
             using (var db = new Database()) {
                 try {
-                    db.BeginTransaction();
                     db.Update<t_trade>(string.Format(" set isprint=1,printcnt=isnull(printcnt,0)+1 where guid in ('{0}')", whr));
-                    db.Execute(string.Format(Sql_UpdateMember, whr));
-                    db.CompleteTransaction();
                 } catch (Exception) {
-                    db.AbortTransaction();
                     throw;
                 }
             }
@@ -178,11 +174,21 @@ namespace Ultra.Trade {
         void btnSubmit_ItemClick(object sender, ItemClickEventArgs e) {
             var et = gcUnSub.GetFocusedDataSource<t_trade>();
             if (null == et) return;
-            using (var db = new Database()) {
 
-                db.Update<t_trade>(" set IsSubmit=1 where guid=@0", et.Guid);
+            if (MsgBox.ShowYesNoMessage("", "确定要提交此出货单?") == DialogResult.Yes) {
+                using (var db = new Database()) {
+                    try {
+                        db.BeginTransaction();
+                        db.Update<t_trade>(" set IsSubmit=1 where guid=@0", et.Guid);
+                        db.Execute(string.Format(Sql_UpdateMember, et.Guid.ToString()));
+                        db.CompleteTransaction();
+                    } catch (Exception) {
+                        db.AbortTransaction();
+                        throw;
+                    }
+                }
+                gcUnSub.RemoveSelected();
             }
-            gcUnSub.RemoveSelected();
         }
 
         void barBtnExport_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
@@ -264,8 +270,6 @@ namespace Ultra.Trade {
                     myBar.btnModify.Enabled =
                     myBar.btnSubmit.Enabled =
                     myBar.btnInvalid.Enabled = false;
-
-                    myBar.btnPrint.Enabled = true;
                     break;
                 case "已打印":
                     myBar.btnCreate.Enabled =

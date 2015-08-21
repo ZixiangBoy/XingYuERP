@@ -18,3 +18,8 @@ H:\GitHub\XingYuERP\Bin\Ultra.Web.Core.dll
 H:\GitHub\XingYuERP\Bin\Ultra.Web.Core.pdb
 H:\GitHub\XingYuERP\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.dll
 H:\GitHub\XingYuERP\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.pdb
+C:\GitSrc\XingYuERP\Bin\Ultra.Web.Core.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.Web.Core.pdb
+C:\GitSrc\XingYuERP\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.dll
+C:\GitSrc\XingYuERP\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.pdb
+C:\GitSrc\XingYuERP\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.csprojResolveAssemblyReference.cache

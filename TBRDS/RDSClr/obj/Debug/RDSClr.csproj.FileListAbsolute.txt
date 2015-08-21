@@ -17,3 +17,9 @@ F:\BaiduYunDownload\winform\TBRDS\Bin\RDSClr.pdb
 F:\BaiduYunDownload\winform\TBRDS\RDSClr\obj\Debug\RDSClr.csprojResolveAssemblyReference.cache
 F:\BaiduYunDownload\winform\TBRDS\RDSClr\obj\Debug\RDSClr.exe
 F:\BaiduYunDownload\winform\TBRDS\RDSClr\obj\Debug\RDSClr.pdb
+C:\GitSrc\XingYuERP\TBRDS\Bin\RDSClr.exe.config
+C:\GitSrc\XingYuERP\TBRDS\Bin\RDSClr.exe
+C:\GitSrc\XingYuERP\TBRDS\Bin\RDSClr.pdb
+C:\GitSrc\XingYuERP\TBRDS\RDSClr\obj\Debug\RDSClr.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\TBRDS\RDSClr\obj\Debug\RDSClr.exe
+C:\GitSrc\XingYuERP\TBRDS\RDSClr\obj\Debug\RDSClr.pdb

@@ -86,8 +86,11 @@ namespace Ultra.MakeCollect {
             using (var db = new Database()) {
                 try {
                     db.BeginTransaction();
-
-                    db.Update<t_member>(" set CurBalance=CurBalance+@0 where receivername=@1", et.Payment, et.PayMember);
+                    if (et.RecvType.Equals("二次拿货款")) {
+                        db.Update<t_member>(" set RecvBalance=RecvBalance+@0 where receivername=@1", et.Payment, et.PayMember);
+                    } else {
+                        db.Update<t_member>(" set CurBalance=CurBalance+@0 where receivername=@1", et.Payment, et.PayMember);
+                    }
 
                     var mem = db.FirstOrDefault<t_member>(" where receivername=@0", et.PayMember);
 

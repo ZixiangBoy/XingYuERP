@@ -28,3 +28,13 @@ H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.MenuView.resources
 H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.csproj.GenerateResource.Cache
 H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.dll
 H:\GitHub\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.pdb
+C:\GitSrc\XingYuERP\Bin\Ultra.Login.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.Login.pdb
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.EditPassWord.resources
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.LoginView.resources
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.MainView.resources
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.MenuView.resources
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.csproj.GenerateResource.Cache
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.dll
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.pdb

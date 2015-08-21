@@ -22,3 +22,9 @@ H:\GitHub\XingYuERP\Bin\DbEntity.pdb
 H:\GitHub\XingYuERP\DbEntity\obj\Debug\DbEntity.csprojResolveAssemblyReference.cache
 H:\GitHub\XingYuERP\DbEntity\obj\Debug\DbEntity.dll
 H:\GitHub\XingYuERP\DbEntity\obj\Debug\DbEntity.pdb
+C:\GitSrc\XingYuERP\Bin\DbEntity.dll.config
+C:\GitSrc\XingYuERP\Bin\DbEntity.dll
+C:\GitSrc\XingYuERP\Bin\DbEntity.pdb
+C:\GitSrc\XingYuERP\DbEntity\obj\Debug\DbEntity.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\DbEntity\obj\Debug\DbEntity.dll
+C:\GitSrc\XingYuERP\DbEntity\obj\Debug\DbEntity.pdb

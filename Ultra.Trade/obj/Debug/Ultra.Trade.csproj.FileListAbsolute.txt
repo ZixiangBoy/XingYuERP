@@ -17,3 +17,13 @@ H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.csproj.GenerateResource.Ca
 H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.dll
 H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.pdb
 H:\GitHub\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.dll.licenses
+C:\GitSrc\XingYuERP\Bin\Ultra.Trade.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.Trade.pdb
+C:\GitSrc\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.MainView.resources
+C:\GitSrc\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.NewView.resources
+C:\GitSrc\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.rptFH.resources
+C:\GitSrc\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.csproj.GenerateResource.Cache
+C:\GitSrc\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.dll.licenses
+C:\GitSrc\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.dll
+C:\GitSrc\XingYuERP\Ultra.Trade\obj\Debug\Ultra.Trade.pdb

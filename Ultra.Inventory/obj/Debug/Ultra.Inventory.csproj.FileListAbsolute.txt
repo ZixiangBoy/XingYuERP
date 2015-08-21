@@ -1,0 +1,12 @@
+C:\GitSrc\XingYuERP\Bin\Ultra.Inventory.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.Inventory.pdb
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.dll
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.pdb
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.InventoryView.resources
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.csproj.GenerateResource.Cache
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.InStockView.resources
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.InStockEditView.resources
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.dll.licenses
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.AdjInvtView.resources
+C:\GitSrc\XingYuERP\Ultra.Inventory\obj\Debug\Ultra.Inventory.AdjInvtEditView.resources

@@ -28,3 +28,11 @@ H:\GitHub\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.NewView.resources
 H:\GitHub\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.csproj.GenerateResource.Cache
 H:\GitHub\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.dll
 H:\GitHub\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.pdb
+C:\GitSrc\XingYuERP\Bin\Ultra.Role.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.Role.pdb
+C:\GitSrc\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.MainView.resources
+C:\GitSrc\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.NewView.resources
+C:\GitSrc\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.csproj.GenerateResource.Cache
+C:\GitSrc\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.dll
+C:\GitSrc\XingYuERP\Ultra.Role\obj\Debug\Ultra.Role.pdb

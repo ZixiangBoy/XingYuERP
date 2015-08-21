@@ -14,3 +14,11 @@ H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.NewView.resources
 H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.csproj.GenerateResource.Cache
 H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.dll
 H:\GitHub\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.pdb
+C:\GitSrc\XingYuERP\Bin\Ultra.Member.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.Member.pdb
+C:\GitSrc\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.MainView.resources
+C:\GitSrc\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.NewView.resources
+C:\GitSrc\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.csproj.GenerateResource.Cache
+C:\GitSrc\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.dll
+C:\GitSrc\XingYuERP\Ultra.Member\obj\Debug\Ultra.Member.pdb

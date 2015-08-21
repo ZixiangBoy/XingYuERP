@@ -12,3 +12,10 @@ H:\GitHub\XingYuERP\Ultra.PointFeeLog\obj\Debug\Ultra.PointFeeLog.MainView.resou
 H:\GitHub\XingYuERP\Ultra.PointFeeLog\obj\Debug\Ultra.PointFeeLog.csproj.GenerateResource.Cache
 H:\GitHub\XingYuERP\Ultra.PointFeeLog\obj\Debug\Ultra.PointFeeLog.dll
 H:\GitHub\XingYuERP\Ultra.PointFeeLog\obj\Debug\Ultra.PointFeeLog.pdb
+C:\GitSrc\XingYuERP\Bin\Ultra.PointFeeLog.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.PointFeeLog.pdb
+C:\GitSrc\XingYuERP\Ultra.PointFeeLog\obj\Debug\Ultra.PointFeeLog.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.PointFeeLog\obj\Debug\Ultra.PointFeeLog.MainView.resources
+C:\GitSrc\XingYuERP\Ultra.PointFeeLog\obj\Debug\Ultra.PointFeeLog.csproj.GenerateResource.Cache
+C:\GitSrc\XingYuERP\Ultra.PointFeeLog\obj\Debug\Ultra.PointFeeLog.dll
+C:\GitSrc\XingYuERP\Ultra.PointFeeLog\obj\Debug\Ultra.PointFeeLog.pdb

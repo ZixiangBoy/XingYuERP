@@ -26,3 +26,9 @@ H:\GitHub\XingYuERP\DbgEntry\obj\Debug\DbgEntry.pdb
 H:\GitHub\XingYuERP\Bin\DbgEntry.exe
 H:\GitHub\XingYuERP\Bin\DbgEntry.pdb
 H:\GitHub\XingYuERP\DbgEntry\obj\Debug\DbgEntry.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Bin\DbgEntry.exe.config
+C:\GitSrc\XingYuERP\DbgEntry\obj\Debug\DbgEntry.exe
+C:\GitSrc\XingYuERP\DbgEntry\obj\Debug\DbgEntry.pdb
+C:\GitSrc\XingYuERP\Bin\DbgEntry.exe
+C:\GitSrc\XingYuERP\Bin\DbgEntry.pdb
+C:\GitSrc\XingYuERP\DbgEntry\obj\Debug\DbgEntry.csprojResolveAssemblyReference.cache

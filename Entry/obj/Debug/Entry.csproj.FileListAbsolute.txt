@@ -16,3 +16,9 @@ H:\GitHub\XingYuERP\Bin\管理系统.pdb
 H:\GitHub\XingYuERP\Entry\obj\Debug\Entry.csprojResolveAssemblyReference.cache
 H:\GitHub\XingYuERP\Entry\obj\Debug\管理系统.exe
 H:\GitHub\XingYuERP\Entry\obj\Debug\管理系统.pdb
+C:\GitSrc\XingYuERP\Bin\管理系统.exe.config
+C:\GitSrc\XingYuERP\Bin\管理系统.exe
+C:\GitSrc\XingYuERP\Bin\管理系统.pdb
+C:\GitSrc\XingYuERP\Entry\obj\Debug\Entry.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Entry\obj\Debug\管理系统.exe
+C:\GitSrc\XingYuERP\Entry\obj\Debug\管理系统.pdb

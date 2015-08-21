@@ -37,3 +37,13 @@ H:\GitHub\XingYuERP\TBRDS\Bin\Ultra.RDS.SyncSvc.pdb
 H:\GitHub\XingYuERP\TBRDS\Ultra.RDS.SyncSvc\obj\Debug\Ultra.RDS.SyncSvc.csprojResolveAssemblyReference.cache
 H:\GitHub\XingYuERP\TBRDS\Ultra.RDS.SyncSvc\obj\Debug\Ultra.RDS.SyncSvc.exe
 H:\GitHub\XingYuERP\TBRDS\Ultra.RDS.SyncSvc\obj\Debug\Ultra.RDS.SyncSvc.pdb
+C:\GitSrc\XingYuERP\TBRDS\Bin\停止同步服务.bat
+C:\GitSrc\XingYuERP\TBRDS\Bin\卸载同步服务.bat
+C:\GitSrc\XingYuERP\TBRDS\Bin\启动同步服务.bat
+C:\GitSrc\XingYuERP\TBRDS\Bin\安装同步服务.bat
+C:\GitSrc\XingYuERP\TBRDS\Bin\Ultra.RDS.SyncSvc.exe.config
+C:\GitSrc\XingYuERP\TBRDS\Bin\Ultra.RDS.SyncSvc.exe
+C:\GitSrc\XingYuERP\TBRDS\Bin\Ultra.RDS.SyncSvc.pdb
+C:\GitSrc\XingYuERP\TBRDS\Ultra.RDS.SyncSvc\obj\Debug\Ultra.RDS.SyncSvc.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\TBRDS\Ultra.RDS.SyncSvc\obj\Debug\Ultra.RDS.SyncSvc.exe
+C:\GitSrc\XingYuERP\TBRDS\Ultra.RDS.SyncSvc\obj\Debug\Ultra.RDS.SyncSvc.pdb

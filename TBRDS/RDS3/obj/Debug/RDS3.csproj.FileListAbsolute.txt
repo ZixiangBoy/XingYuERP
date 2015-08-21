@@ -31,3 +31,9 @@ H:\GitHub\XingYuERP\Bin\RDS3.pdb
 H:\GitHub\XingYuERP\TBRDS\RDS3\obj\Debug\RDS3.csprojResolveAssemblyReference.cache
 H:\GitHub\XingYuERP\TBRDS\RDS3\obj\Debug\RDS3.exe
 H:\GitHub\XingYuERP\TBRDS\RDS3\obj\Debug\RDS3.pdb
+C:\GitSrc\XingYuERP\Bin\RDS3.exe.config
+C:\GitSrc\XingYuERP\Bin\RDS3.exe
+C:\GitSrc\XingYuERP\Bin\RDS3.pdb
+C:\GitSrc\XingYuERP\TBRDS\RDS3\obj\Debug\RDS3.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\TBRDS\RDS3\obj\Debug\RDS3.exe
+C:\GitSrc\XingYuERP\TBRDS\RDS3\obj\Debug\RDS3.pdb

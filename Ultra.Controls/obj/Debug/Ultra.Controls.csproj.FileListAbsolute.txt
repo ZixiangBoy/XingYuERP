@@ -8,3 +8,8 @@ H:\GitHub\XingYuERP\Bin\Ultra.Controls.pdb
 H:\GitHub\XingYuERP\Ultra.Controls\obj\Debug\Ultra.Controls.csprojResolveAssemblyReference.cache
 H:\GitHub\XingYuERP\Ultra.Controls\obj\Debug\Ultra.Controls.dll
 H:\GitHub\XingYuERP\Ultra.Controls\obj\Debug\Ultra.Controls.pdb
+C:\GitSrc\XingYuERP\Bin\Ultra.Controls.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.Controls.pdb
+C:\GitSrc\XingYuERP\Ultra.Controls\obj\Debug\Ultra.Controls.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.Controls\obj\Debug\Ultra.Controls.dll
+C:\GitSrc\XingYuERP\Ultra.Controls\obj\Debug\Ultra.Controls.pdb

@@ -36,3 +36,13 @@ H:\GitHub\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.PermitViewExport
 H:\GitHub\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.csproj.GenerateResource.Cache
 H:\GitHub\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.dll
 H:\GitHub\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.pdb
+C:\GitSrc\XingYuERP\Bin\Ultra.Permission.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.Permission.pdb
+C:\GitSrc\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.MainView.resources
+C:\GitSrc\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.NewView.resources
+C:\GitSrc\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.PermitView.resources
+C:\GitSrc\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.PermitViewExport.resources
+C:\GitSrc\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.csproj.GenerateResource.Cache
+C:\GitSrc\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.dll
+C:\GitSrc\XingYuERP\Ultra.Permission\obj\Debug\Ultra.Permission.pdb

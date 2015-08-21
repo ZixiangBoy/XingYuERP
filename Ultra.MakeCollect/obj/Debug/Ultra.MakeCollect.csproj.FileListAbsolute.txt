@@ -14,3 +14,12 @@ H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.NewView.resour
 H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csproj.GenerateResource.Cache
 H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.dll
 H:\GitHub\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.pdb
+C:\GitSrc\XingYuERP\Bin\Ultra.MakeCollect.dll
+C:\GitSrc\XingYuERP\Bin\Ultra.MakeCollect.pdb
+C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.MainView.resources
+C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.NewView.resources
+C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csproj.GenerateResource.Cache
+C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.dll
+C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.pdb
+C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.dll.licenses
