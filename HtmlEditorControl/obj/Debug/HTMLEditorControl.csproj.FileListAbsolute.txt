@@ -54,3 +54,5 @@ C:\GitSrc\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.Html.Editor.Properties.Reso
 C:\GitSrc\XingYuERP\HtmlEditorControl\obj\Debug\HTMLEditorControl.csproj.GenerateResource.Cache
 C:\GitSrc\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.HtmlEditorControl.dll
 C:\GitSrc\XingYuERP\HtmlEditorControl\obj\Debug\MSDN.HtmlEditorControl.pdb
+C:\GitSrc\XingYuERP\Bin\MSDN.HtmlEditorControl.dll
+C:\GitSrc\XingYuERP\Bin\MSDN.HtmlEditorControl.pdb
