@@ -253,7 +253,7 @@ namespace Ultra.Login {
 
         private void barBtnSysInfo_ItemClick(object sender, ItemClickEventArgs e) {
             //关于
-            Ultra.Surface.Lanuch.Lanucher.Start("LS.ERP.SysInfo.MainView").ShowDialog();
+            Ultra.Surface.Lanuch.Lanucher.Start("Ultra.Login.SysInfoView").ShowDialog();
         }
 
         private void barBtnExit_ItemClick(object sender, ItemClickEventArgs e) {

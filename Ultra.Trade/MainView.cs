@@ -180,6 +180,7 @@ namespace Ultra.Trade {
                     try {
                         db.BeginTransaction();
                         db.Update<t_trade>(" set IsSubmit=1 where guid=@0", et.Guid);
+                        db.Execute("exec p_tradeupdateinvt @0", et.Guid);
                         db.Execute(string.Format(Sql_UpdateMember, et.Guid.ToString()));
                         db.CompleteTransaction();
                     } catch (Exception) {
@@ -281,6 +282,41 @@ namespace Ultra.Trade {
                     break;
             }
             barBtnRefresh_ItemClick(null, null);
+        }
+
+        public string Sql_UpdateInventory { 
+            get {
+                return @"
+declare @tb table(
+	ItemName nvarchar(200) NULL,
+	ItemNo nvarchar(50) NULL,
+	Price decimal(18, 2) NOT NULL,
+	PointFee decimal(18, 2) NOT NULL,
+	OldQty int NOT NULL,
+	NowQty int NOT NULL,
+	ActionName nvarchar(200) NULL,
+	ActionNo nvarchar(200) NULL)
+
+;with t as (
+select a.Guid,Delivery,ReceiverName,b.ItemNo,sum(b.Num) num,sum(Price) price,sum(PointFee) pointfee
+ from t_trade a 
+join t_order b on a.guid=b.tradeguid 
+where a.guid in ('{0}')
+group by b.ItemNo,a.ReceiverName,a.Delivery,a.Guid
+)
+update a set a.qty=b.num
+output deleted.ItemName,deleted.ItemNo,b.price,b.pointfee,deleted.Qty,inserted.Qty
+,b.ReceiverName+b.Delivery,cast(b.Guid as nvarchar(50)) into @tb
+from t_inventory a 
+join t b on a.ItemNo=b.ItemNo
+
+INSERT INTO dbo.t_inventorylog
+(Guid,ItemName,ItemNo,Price,PointFee
+,OldQty,NowQty,ActionName,ActionNo,CreateDate,Creator,IsUsing)
+select newid(),ItemName,ItemNo,Price,PointFee
+,OldQty,NowQty,ActionName,ActionNo,GETDATE(),'',1
+from @tb";
+            } 
         }
 
         public string Sql_UpdateMember {

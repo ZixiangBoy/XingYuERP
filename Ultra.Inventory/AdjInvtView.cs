@@ -128,7 +128,7 @@ namespace Ultra.Inventory {
                     db.BeginTransaction();
                     db.Execute(" update t_adjinvt set isaudit=1,auditdate=getdate() where AdjInvtNo=@0", et.AdjInvtNo);
                     //更新库存
-                    db.Execute(Sql_UpdateInventory, et.AdjInvtNo);
+                    db.Execute("exec p_adjinvtupdateinvt @0,@1", et.AdjInvtNo,this.CurUser);
                     db.CompleteTransaction();
                     gcUnAudit.RemoveSelected();
                 } catch (Exception) {

@@ -38,3 +38,5 @@ C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.MenuView.resources
 C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.csproj.GenerateResource.Cache
 C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.dll
 C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.pdb
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.SysInfoView.resources
+C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.dll.licenses

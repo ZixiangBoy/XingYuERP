@@ -142,7 +142,7 @@ namespace Ultra.Inventory {
                     db.BeginTransaction();
                     db.Execute(" update t_instock set isaudit=1,auditdate=getdate() where instockno=@0", et.InStockNo);
                     //更新库存
-                    db.Execute(Sql_UpdateInventory,et.InStockNo);
+                    db.Execute("exec p_instockupdateinvt @0", et.InStockNo);
                     db.CompleteTransaction();
                     gcUnAudit.RemoveSelected();
                 } catch (Exception) {
@@ -155,6 +155,17 @@ namespace Ultra.Inventory {
         public string Sql_UpdateInventory {
             get {
                 return @"
+declare @tb table(
+	ItemName nvarchar(200) NULL,
+	ItemNo nvarchar(50) NULL,
+	Price decimal(18, 2) NOT NULL,
+	PointFee decimal(18, 2) NOT NULL,
+	OldQty int NOT NULL,
+	NowQty int NOT NULL,
+	ActionName nvarchar(200) NULL,
+	ActionNo nvarchar(200) NULL)
+
+
 --更新存在的商品库存
 ;with t as 
 (
@@ -162,6 +173,8 @@ namespace Ultra.Inventory {
 	join t_instockitem b on a.instockno=b.instockno
 )
 update a set a.qty=a.qty+b.num
+output deleted.ItemName,deleted.ItemNo,0,0,deleted.Qty,inserted.Qty
+,'货物入库',b.InStockNo into @tb
 from [t_inventory] a 
 join t b on a.ItemNo=b.itemno
 where b.instockno=@0
@@ -170,10 +183,20 @@ where b.instockno=@0
 --插入中没有的商品库存
 INSERT INTO [dbo].[t_inventory]
 ([ItemName],[ItemNo],[CostPrice],[Qty],[Creator],[IsUsing])
+output inserted.ItemName,inserted.ItemNo,0,0,0,inserted.Qty
+,'货物入库',@0 into @tb
 select b.[ItemName],b.ItemNo,b.CostPrice,b.Num,b.Creator,1 from t_instock a 
 join t_instockitem b on a.instockno=b.instockno
 left join [t_inventory] c on b.itemno=c.itemno
 where c.id is null and a.instockno=@0
+
+INSERT INTO dbo.t_inventorylog
+(Guid,ItemName,ItemNo,Price,PointFee
+,OldQty,NowQty,ActionName,ActionNo,CreateDate,Creator,IsUsing)
+select newid(),ItemName,ItemNo,Price,PointFee
+,OldQty,NowQty,ActionName,ActionNo,GETDATE(),'',1
+from @tb
+
 "; 
             }        
         }
