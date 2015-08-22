@@ -22,4 +22,3 @@ C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.NewView.resour
 C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.csproj.GenerateResource.Cache
 C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.dll
 C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.pdb
-C:\GitSrc\XingYuERP\Ultra.MakeCollect\obj\Debug\Ultra.MakeCollect.dll.licenses

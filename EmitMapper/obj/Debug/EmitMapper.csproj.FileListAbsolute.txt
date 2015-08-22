@@ -1,0 +1,5 @@
+C:\GitSrc\XingYuERP\EmitMapper\obj\Debug\EmitMapper.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Bin\EmitMapper.dll
+C:\GitSrc\XingYuERP\Bin\EmitMapper.pdb
+C:\GitSrc\XingYuERP\EmitMapper\obj\Debug\EmitMapper.dll
+C:\GitSrc\XingYuERP\EmitMapper\obj\Debug\EmitMapper.pdb

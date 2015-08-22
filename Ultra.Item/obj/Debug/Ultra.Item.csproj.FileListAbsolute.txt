@@ -22,6 +22,5 @@ C:\GitSrc\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.csprojResolveAssemblyReferen
 C:\GitSrc\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.MainView.resources
 C:\GitSrc\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.NewView.resources
 C:\GitSrc\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.csproj.GenerateResource.Cache
-C:\GitSrc\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.dll.licenses
 C:\GitSrc\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.dll
 C:\GitSrc\XingYuERP\Ultra.Item\obj\Debug\Ultra.Item.pdb

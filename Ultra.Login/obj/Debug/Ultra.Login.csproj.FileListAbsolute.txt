@@ -39,4 +39,3 @@ C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.csproj.GenerateResource.Ca
 C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.dll
 C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.pdb
 C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.SysInfoView.resources
-C:\GitSrc\XingYuERP\Ultra.Login\obj\Debug\Ultra.Login.dll.licenses
