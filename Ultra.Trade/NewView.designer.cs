@@ -29,14 +29,14 @@ namespace Ultra.Trade
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule2 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule3 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule1 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
             this.btnClose = new DevExpress.XtraEditors.SimpleButton();
             this.btnOK = new DevExpress.XtraEditors.SimpleButton();
-            this.dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider();
+            this.dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
             this.cmbDelivery = new DevExpress.XtraEditors.ComboBoxEdit();
             this.memgcEdt = new Ultra.Controls.MemberGridEdit();
             this.memberGridEdit1View = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -311,9 +311,6 @@ namespace Ultra.Trade
             // 
             this.gcOrder.ColorFieldName = null;
             this.gcOrder.Dock = System.Windows.Forms.DockStyle.Fill;
-            gridLevelNode1.RelationName = "Level1";
-            this.gcOrder.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
             this.gcOrder.Location = new System.Drawing.Point(0, 0);
             this.gcOrder.MainView = this.gvOrder;
             this.gcOrder.Name = "gcOrder";
@@ -347,6 +344,7 @@ namespace Ultra.Trade
             this.gvOrder.OptionsView.EnableAppearanceEvenRow = true;
             this.gvOrder.OptionsView.EnableAppearanceOddRow = true;
             this.gvOrder.OptionsView.ShowAutoFilterRow = true;
+            this.gvOrder.OptionsView.ShowFooter = true;
             this.gvOrder.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
@@ -456,6 +454,8 @@ namespace Ultra.Trade
             this.gridColumn5.FieldName = "OrderPrice";
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.OptionsColumn.AllowEdit = false;
+            this.gridColumn5.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "OrderPrice", "总金额:{0}")});
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 5;
             // 
@@ -465,6 +465,8 @@ namespace Ultra.Trade
             this.gridColumn7.FieldName = "OrderPointFee";
             this.gridColumn7.Name = "gridColumn7";
             this.gridColumn7.OptionsColumn.AllowEdit = false;
+            this.gridColumn7.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "OrderPointFee", "总积分:{0}")});
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 6;
             // 
