@@ -304,7 +304,7 @@ join t_order b on a.guid=b.tradeguid
 where a.guid in ('{0}')
 group by b.ItemNo,a.ReceiverName,a.Delivery,a.Guid
 )
-update a set a.qty=b.num
+update a set a.qty=a.qty-b.num
 output deleted.ItemName,deleted.ItemNo,b.price,b.pointfee,deleted.Qty,inserted.Qty
 ,b.ReceiverName+b.Delivery,cast(b.Guid as nvarchar(50)) into @tb
 from t_inventory a 

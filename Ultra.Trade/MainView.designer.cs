@@ -200,6 +200,7 @@
             // 
             this.xtraTabPage1.Controls.Add(this.gcUnSub);
             this.xtraTabPage1.Name = "xtraTabPage1";
+            this.xtraTabPage1.ShowCloseButton = DevExpress.Utils.DefaultBoolean.True;
             this.xtraTabPage1.Size = new System.Drawing.Size(624, 227);
             this.xtraTabPage1.Text = "未提交";
             // 
@@ -217,7 +218,6 @@
             this.gcSubed.Location = new System.Drawing.Point(0, 0);
             this.gcSubed.MainView = this.gvSubed;
             this.gcSubed.Name = "gcSubed";
-            this.gcSubed.ShowIndicator = true;
             this.gcSubed.ShowRowNumber = true;
             this.gcSubed.Size = new System.Drawing.Size(624, 227);
             this.gcSubed.TabIndex = 5;
@@ -310,7 +310,6 @@
             this.gcPrinted.Location = new System.Drawing.Point(0, 0);
             this.gcPrinted.MainView = this.gvPrinted;
             this.gcPrinted.Name = "gcPrinted";
-            this.gcPrinted.ShowIndicator = true;
             this.gcPrinted.ShowRowNumber = true;
             this.gcPrinted.Size = new System.Drawing.Size(624, 227);
             this.gcPrinted.TabIndex = 6;

@@ -5,7 +5,6 @@ using System.Data.Common;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
-using Ultra.Surface.Common;
 
 namespace PetaPoco
 {
@@ -60,7 +59,7 @@ namespace PetaPoco
         }
     }
 
-    public partial class PetaPocoDbContext {
+    public partial class DbController {
         public string ConnStr { get; set; }
 
         private Database _Db { get; set; }
@@ -71,16 +70,12 @@ namespace PetaPoco
             }
         }
 
-
-        public PetaPocoDbContext() {
-            ConnStr = Ultra.Surface.Lanuch.Lanucher.ConnectonString;
+        public DbController() {
+            ConnStr = System.Configuration.ConfigurationManager.ConnectionStrings["dbconstr"].ConnectionString;//Ultra.Surface.Lanuch.Lanucher.ConnectonString;
         }
 
-        public PetaPocoDbContext(string con) {
+        public DbController(string con) {
             ConnStr = con;
         }
-
-
-
     }
 }

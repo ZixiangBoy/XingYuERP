@@ -68,11 +68,11 @@ namespace DbEntity
 		[Serializable]
 		public partial class Record<T> where T:class,new()
 		{
-			public T Copy()
-			{
+			//public T Copy()
+			//{
 				//return DoubleBullet.Surmnt.FrameWork.Entity.FrameWorkBaseEntity.DeSerialize<T>(DoubleBullet.Surmnt.FrameWork.Entity.FrameWorkBaseEntity.Serialize<T>(this as T));
-				return Ultra.Web.Core.Common.ObjectHelper.DeepCopy<T>(this as T);
-			}
+				//return Ultra.Web.Core.Common.ObjectHelper.DeepCopy<T>(this as T);
+			//}
 			public static DbEntityDB repo { get { return DbEntityDB.GetInstance(); } }
 			public bool IsNew() { return repo.IsNew(this); }
 			public object Insert() { return repo.Insert(this); }

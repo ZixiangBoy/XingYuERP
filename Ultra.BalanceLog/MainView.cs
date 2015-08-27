@@ -35,8 +35,8 @@ namespace Ultra.BalanceLog
         public List<Ultra.Surface.Interfaces.PermitGridView> Grids {
             get {
                 return new List<Ultra.Surface.Interfaces.PermitGridView> { 
-                new Ultra.Surface.Interfaces.PermitGridView(this.gridView1,"余额变动记录")
-            };
+                    new Ultra.Surface.Interfaces.PermitGridView(this.gridView1,"余额变动记录")
+                };
             }
         }
 

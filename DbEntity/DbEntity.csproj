@@ -74,16 +74,6 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ultra.Surface\Ultra.Surface.csproj">
-      <Project>{cb518407-658a-43dd-887c-882eae1f7b23}</Project>
-      <Name>Ultra.Surface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Ultra.Web.Core\Ultra.Web.Core.csproj">
-      <Project>{aa07f32a-5fc8-4975-8a7f-1b23502d07ae}</Project>
-      <Name>Ultra.Web.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Script\TableScript.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
